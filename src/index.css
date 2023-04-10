@@ -10,4 +10,68 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
 }
+*{
+  font-family: 'Dosis', sans-serif;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+button{
+  cursor:pointer;
+}
+
+
+
+:root{
+  --whitebackground:rgb(255,255,255);
+  --links-text:rgb(25,39,52);
+  --white-text:rgb(255,255,255); 
+  --underline:rgb(136, 97, 97)
+}
+
+.active{
+  background-color: var(--underline);
+  color: white !important;
+  border-radius: 10px;
+}
+
+.btn{
+  background-color: var(--underline);
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.5rem 0.75rem ;
+  border-radius: 10%;
+  border: none;
+}
+ 
+.underline{
+  border-bottom: 1px solid var(--underline);
+  margin: 2rem 40px;
+}
+.heading{
+ color: var(--links-text); 
+ text-align: center;
+ padding: 0% 0% ;
+ margin: 0px 0px ;
+}
+
+.small-underline{
+  border-top: 5px solid var(--underline);
+  width: 80px;
+  border-radius: 10px; 
+  display: inline-block;
+}
+
+
+
+.page-100 {
+  min-height: calc(100vh - 10rem); 
+  margin: 10rem 0;
+}
+
+.page {
+  min-height: calc(100vh - (79.813px + 150px));
+  
+}
+ 

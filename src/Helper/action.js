@@ -1,0 +1,19 @@
+export const SIDEBAR_OPEN = 'is_sidebar_open';
+export const SIDEBAR_CLOSE = 'is_sidebar_CLOSE';
+export const ISLOADING = 'is_LOADING';
+export const PRODUCT_FETCHING = 'is_PRODUCT_FETCHING';
+export const FEATURED_PRODUCTS = 'FEATURED_PRODUCTS';
+export const Nav_Search_Products = 'Search_Products';
+export const Sort_Items = 'Sort_Items';
+export const Filter_Products_Update = 'Filter_Products_search';
+export const  OPEN_FILTER = 'Openfilter';
+export const  CLOSE_FILTER = 'CLOSE_FILTER';
+export const  RESET_FILTER = 'RESET_FILTER';
+export const  SEARCH_PRODUCTS = 'SEARCH';
+export const  APPLY_CHANGES = 'APPLY_CHANGES';
+export const ADD_TO_CART ='ADD_TO_CART'
+export const Cart_Update ='Cart_Update'
+export const Apply_filter ='Apply_filter'
+export const Total_cart_amount ='Total_cart_amount'
+export const Loading_Filter ='Loading_Filter'
+
